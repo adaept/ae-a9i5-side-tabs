@@ -1,8 +1,9 @@
 {
   "name": "ae-a9i5-side-tabs",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "adaept",
   "homepage": "https://adaept.com/",
+  "description": "npm i @adaept/ae-icons-component needed for adding aeicons component",
   "scripts": {
     "ng": "ng",
     "start": "ionic serve",
@@ -11,9 +12,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
-    "@adaept/ae-icons-component": "^0.9.96",
+    "@adaept/ae-icons-component": "^0.9.99",
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
     "@angular/core": "~8.2.14",
@@ -63,7 +64,6 @@
     "tslint-ionic-rules": "~0.0.21",
     "typescript": "~3.5.3"
   },
-  "description": "an adaept project",
   "cordova": {
     "plugins": {
       "cordova-plugin-camera": {},
