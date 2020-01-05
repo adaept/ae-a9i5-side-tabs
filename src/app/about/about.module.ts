@@ -1,6 +1,7 @@
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
+// needed for adding aeicons component
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { AboutPage } from './about.page';
 
@@ -12,5 +13,6 @@ import { AboutPage } from './about.page';
   ],
   declarations: [AboutPage],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  // needed for adding aeicons component
 })
 export class AboutPageModule { }

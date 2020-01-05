@@ -1,3 +1,4 @@
+// needed for adding aeicons component
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { TestBed, async } from '@angular/core/testing';
 
@@ -19,6 +20,7 @@ describe('AppComponent', () => {
 
     TestBed.configureTestingModule({
       declarations: [AppComponent],
+      // needed for adding aeicons component
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
       providers: [
         { provide: StatusBar, useValue: statusBarSpy },

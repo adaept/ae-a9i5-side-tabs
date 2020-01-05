@@ -1,4 +1,5 @@
 import { FormsModule } from '@angular/forms';
+// needed for adding aeicons component
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -24,6 +25,7 @@ import { AppComponent } from './app.component';
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent],
+  // needed for adding aeicons component
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }
