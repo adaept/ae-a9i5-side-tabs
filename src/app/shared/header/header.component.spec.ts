@@ -1,3 +1,4 @@
+// needed for adding aeicons component
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
@@ -10,6 +11,7 @@ describe('HeaderComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [HeaderComponent],
+      // needed for adding aeicons component
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
       .compileComponents();
